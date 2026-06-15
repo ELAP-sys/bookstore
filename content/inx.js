@@ -1,4 +1,3 @@
-// Dark mode toggle
 const toggle = document.getElementById("toggle");
 const icon = document.getElementById("mode-icon");
 toggle.addEventListener("click", () => {
