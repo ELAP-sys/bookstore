@@ -366,6 +366,11 @@ body.light header {
         grid-template-columns: 1fr 1fr;
         padding: 10px 4vw;
       }
+
+      .dropdown-menu{
+        position: fixed;
+        
+      }
       
       .site-title {
         font-size: 1.2rem;
@@ -379,7 +384,7 @@ body.light header {
       .dropdown-menu {
         width: 180px;
         right: 0;
-        left: auto;
+        justify-self: left;
       }
       
       .hero {
