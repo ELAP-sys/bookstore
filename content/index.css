@@ -316,13 +316,38 @@ body.light header {
       background-size: cover;
     }
     #j11{
-      background-image: url("../media/bookshelf/1.jpg");
+      background-image: url("../media/bookshelf/20.jpg");
       background-size: cover;
     }
     #j12{
-      background-image: url("../media/bookshelf/1.jpg");
+      background-image: url("../media/bookshelf/16.webp");
       background-size: cover;
     }
+    #j13{
+      background-image: url("../media/bookshelf/6.jpg");
+      background-size: cover;
+    }
+    #j14{
+      background-image: url("../media/bookshelf/20.jpg");
+      background-size: cover;
+    }
+    #j15{
+      background-image: url("../media/bookshelf/16.webp");
+      background-size: cover;
+    }
+    #j16{
+      background-image: url("../media/bookshelf/6.jpg");
+      background-size: cover;
+    }
+    #j17{
+      background-image: url("../media/bookshelf/20.jpg");
+      background-size: cover;
+    }
+    #j18{
+      background-image: url("../media/bookshelf/16.webp");
+      background-size: cover;
+    }
+
 
     .book-title {
       font-size: 0.85rem;
