@@ -135,7 +135,7 @@ body.light header {
       align-content: center;
       padding: 60px 20px;
       /* background: linear-gradient(to bottom, #1e293b, #0f172a); */
-      background-image: url("../media/1.jpg");
+      background-image: url("../media/landdark.jpg");
       background-size: cover;
       box-shadow: 0 4px 16px rgba(8, 24, 203, 0.3);
     }
@@ -359,6 +359,12 @@ body.light header {
     }
     body.light .footer-section a {
       color: #222;
+    }
+
+    @media (prefers-color-scheme: light){
+      .hero{
+        background-image: url(../media/landlight.jpg);
+      }
     }
 
     @media (max-width: 768px) {
