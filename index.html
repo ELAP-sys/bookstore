@@ -1,170 +1,141 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>فروشگاه کتاب</title>
-  <link rel="shortcut icon" href="./media/favico.png" type="image/x-icon">
-  <link rel="stylesheet" href="./content/index.css">
-  
-</head>
-<body>
-  <header>
-  <div class="header-right">
-    <span class="site-title">کتابستور</span>
-  </div>
-
-  <div class="header-left">
-    <div class="logo-dropdown" id="logoDropdown">
-      <img src="./media/iicon2.png" class="logo-img" alt="لوگو">
-
-      <div class="dropdown-menu" id="dropdownMenu">
-        <div class="menu-top">
-          <a href="#">خانه</a>
-          <a href="#">دسته‌بندی‌ها</a>
-          <a href="#">پرفروش‌ها</a>
-          <a href="#">تماس با ما</a>
-          <a href="#">حساب کاربری</a>
-        </div>
-
-        <button class="theme-toggle" id="toggle">
-          <span id="mode-icon">🌙</span>
-          تغییر حالت
-        </button>
-      </div>
-    </div>
-  </div>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>فروشگاه کتاب</title>
+    <link rel="shortcut icon" href="./media/icon/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./content/index.css">
     
-  <section class="hero">
-    <div class="hero-text">
-      <h1>تاکنون ۱۰۴۶ عنوان در کتاب استور لیست شده...</h1>
-      <b><p>بهترین کتاب‌ها با ارسال سریع، تحویل حضوری و تخفیف ویژه</p></b>
-    </div>
-    <div class="scrl-butt">
-      <button class="scroll-down" id="scrollBtn"><b>دسته بندی ها</b></button>
-    </div>
-  </section>
-
-
-  <div class="transection">
-    <div class="box">
-      <h2>کتابخانه دیجیتال رایگان و خرید و فروش کتاب</h2>
-      <p>اینجا میتونید به یه آرشیو بزرگ از بهترین کتاب‌ها در قالب pdf دسترسی پیدا کنید. 
-        همچنین خودتونم میتونید بعد از ثبت نام، کتاب جدید آپلود کنید.
-        همین الان میتونی یه سر به آرشیو بزنی!
-        تازه منتظر باشید، کتابستور این امکان رو فراهم کرده که  شما بتونید در آینده اقدام به خرید و فروش کتاب بکنید.
-      پس اگر حساب کاربری نداری همین الان یکی بساز!
-      </p>
+  </head>
+  <body>
+    <header>
+      <div class="header-right">
+        <span class="site-title">کتابستور</span>
+      </div>
+      
+      <div class="header-left">
+        <div class="logo-dropdown" id="logoDropdown">
+          <img src="./media/icon/iicon2.png" class="logo-img" alt="لوگو">
+          
+          <div class="dropdown-menu" id="dropdownMenu">
+            <div class="menu-top">
+              <a href="#">خانه</a>
+              <a href="#">دسته‌بندی‌ها</a>
+              <a href="#">پرفروش‌ها</a>
+              <a href="#">تماس با ما</a>
+              <a href="#">حساب کاربری</a>
+            </div>
+            
+            <button class="theme-toggle" id="toggle">
+              <span id="mode-icon">🌙</span>
+              تغییر حالت
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section class="hero">
+      <div class="hero-text">
+        <h1>تاکنون ۱۰۴۶ عنوان در کتاب استور لیست شده...</h1>
+        <b><p>بهترین کتاب‌ها با ارسال سریع، تحویل حضوری و تخفیف ویژه</p></b>
+      </div>
+      <div class="scrl-butt">
+        <button class="scroll-down" id="scrollBtn"><b>دسته بندی ها</b></button>
+      </div>
+    </section>
+    
+    
+    <div class="transection">
+      <div class="box">
+        <h2>کتابخانه دیجیتال رایگان و خرید و فروش کتاب</h2>
+        <p>اینجا میتونید به یه آرشیو بزرگ از بهترین کتاب‌ها در قالب pdf دسترسی پیدا کنید. 
+          همچنین خودتونم میتونید بعد از ثبت نام، کتاب جدید آپلود کنید.
+          همین الان میتونی یه سر به آرشیو بزنی!
+          تازه منتظر باشید، کتابستور این امکان رو فراهم کرده که  شما بتونید در آینده اقدام به خرید و فروش کتاب بکنید.
+          پس اگر حساب کاربری نداری همین الان یکی بساز!
+        </p>
       </div>
       <div class="butt">
         <button>مشاهده</button>
         <button>ساخت حساب</button>
       </div>
-  </div>
-
-  <!-- دسته‌بندی‌ها -->
-  <br id="targetSection">
-  <h2 class="section-title">دسته‌بندی‌ها</h2>
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><div class="book-cover" id="j1"></div><p class="book-title">رمان</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j2"></div><p class="book-title">تاریخی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j3"></div><p class="book-title">فلسفی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j4"></div><p class="book-title">روانشناسی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j5"></div><p class="book-title">علمی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j6"></div><p class="book-title">کودک</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j7"></div><p class="book-title">هنری</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j8"></div><p class="book-title">شعر</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j9"></div><p class="book-title">زندگی‌نامه</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j10"></div><p class="book-title">دینی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j11"></div><p class="book-title">فانتزی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j12"></div><p class="book-title">آموزشی</p></div>
     </div>
-  </div>
+    
 
-  <!-- پرفروش‌ترین‌ها -->
-  <h2 class="section-title">پرفروش‌ترین‌ها</h2>
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><div class="book-cover" id="j13"></div><p class="book-title">رمان کلاسیک</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j1"></div><p class="book-title">اثر جدید</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j15"></div><p class="book-title">پرفروش جهانی</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j16"></div><p class="book-title">کتاب الهام‌بخش</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j17"></div><p class="book-title">رمان عاشقانه</p></div>
-      <div class="swiper-slide"><div class="book-cover" id="j18"></div><p class="book-title">داستان کوتاه</p></div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-section">
-      <h3>کتابستان</h3>
-      <p>فروشگاه آنلاین کتاب با ارسال به سراسر ایران و پشتیبانی دوستانه.</p>
-      <p>هدف ما این است که کتاب را برای همه، در هر نقطه، در دسترس کنیم.</p>
-    </div>
-
-    <div class="footer-section">
-      <h3>لینک‌های مهم</h3>
-      <a href="#categories">دسته‌بندی‌ها</a>
-      <a href="#best">پرفروش‌ترین‌ها</a>
-      <a href="#">سوالات متداول</a>
-      <a href="#">قوانین و مقررات</a>
-    </div>
-
-    <div class="footer-section">
-      <h3>شبکه‌های اجتماعی</h3>
-      <p>ما را در شبکه‌های اجتماعی دنبال کنید:</p>
-      <div class="social-icons">
-        <a href="#" title="اینستاگرام">📷</a>
-        <a href="#" title="تلگرام">📨</a>
-        <a href="#" title="توییتر">🐦</a>
+    <br id="targetSection">
+    <h2 class="section-title">دسته‌بندی‌ها</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="book-cover" id="j1"></div><p class="book-title">رمان</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j2"></div><p class="book-title">تاریخی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j3"></div><p class="book-title">فلسفی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j4"></div><p class="book-title">روانشناسی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j5"></div><p class="book-title">علمی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j6"></div><p class="book-title">کودک</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j7"></div><p class="book-title">هنری</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j8"></div><p class="book-title">شعر</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j9"></div><p class="book-title">زندگی‌نامه</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j10"></div><p class="book-title">دینی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j11"></div><p class="book-title">فانتزی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j12"></div><p class="book-title">آموزشی</p></div>
       </div>
     </div>
-
-    <div class="footer-section">
-      <h3>ارتباط با ما</h3>
-      <p>ایمیل: info@example.com</p>
-      <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
-      <p>آدرس: تهران، خیابان مثال، پلاک ۱۰</p>
-    </div>
-
-    <div class="footer-bottom">
-      © ۱۴۰۵ کتابستان — طراحی شده با عشق به کتاب
-    </div>
-  </footer>
-
-  <script>
-    // Dark mode toggle
-    const toggle = document.getElementById("toggle");
-    const icon = document.getElementById("mode-icon");
-    toggle.addEventListener("click", () => {
-      document.body.classList.toggle("light");
-      if (document.body.classList.contains("light")) {
-        icon.textContent = "☀️";
-      } else {
-        icon.textContent = "🌙";
-      }
-    });
-
-    const logoDropdown = document.getElementById("logoDropdown");
-    const dropdownMenu = document.getElementById("dropdownMenu");
     
-    logoDropdown.addEventListener("click" || "hover", (e) => {
-      e.stopPropagation();
-      const isOpen = dropdownMenu.style.display === "flex";
-      dropdownMenu.style.display = isOpen ? "none" : "flex";
-    });
     
-    document.addEventListener("click", () => {
-      dropdownMenu.style.display = "none";
-    });
-
-    document.getElementById("scrollBtn").addEventListener("click", () => {
-      document.getElementById("targetSection").scrollIntoView({
-        behavior: "smooth"
-      });
-    });
-  </script>
-</body>
-</html>
+    <h2 class="section-title">پرفروش‌ترین‌ها</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="book-cover" id="j13"></div><p class="book-title">نازنین</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j14"></div><p class="book-title">یادداشت های زیرزمینی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j15"></div><p class="book-title">رهایی از دانستگی</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j16"></div><p class="book-title">نبرد با شیاطین</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j17"></div><p class="book-title">هری پاتر</p></div>
+        <div class="swiper-slide"><div class="book-cover" id="j18"></div><p class="book-title">نجات از هزارتو</p></div>
+      </div>
+    </div>
+    
+    
+    <footer>
+      <div class="footer-section">
+        <h3>لینک‌های مهم</h3>
+        <a href="#categories">دسته‌بندی‌ها</a>
+        <a href="#best">پرفروش‌ترین‌ها</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">قوانین و مقررات</a>
+      </div>
+      
+      <div class="footer-section">
+        <h3>شبکه‌های اجتماعی</h3>
+        <p>ما را در شبکه‌های اجتماعی دنبال کنید</p>
+        <div class="social-icons">
+          <a href="#" title="اینستاگرام"><img class="ico" src="./media/icon/instagram.png" alt=""></a>
+          <a href="#" title="تلگرام"><img class="ico" src="./media/icon/telegram.png" alt=""></a>
+          <a href="#" title="ایتا"><img class="ico" src="./media/icon/eata.png" alt=""></a>
+          <a href="#" title="گیت هاب"><img class="ico" src="./media/icon/github.png" alt=""></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>ارتباط با ما</h3>
+        <p>ایمیل: amirparsa793@hotmail.com</p>
+        <p>تلفن: ۰۹۹۶۵۱۴۴۴۰۱</p>
+        <p>آدرس: اصفهان، هزارجریب، کوی کارگر</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>کتابستان</h3>
+        <p>فروشگاه آنلاین کتاب با ارسال به سراسر ایران و پشتیبانی دوستانه.</p>
+        <p>هدف ما این است که کتاب را برای همه، در هر نقطه، در دسترس کنیم.</p>
+      </div>
+      
+      <div class="footer-bottom">
+        کتاب استور
+      </div>
+    </footer>
+    
+    <script src="./content/inx.js"></script>
+  </body>
+  </html>
+  
