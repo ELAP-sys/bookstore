@@ -141,7 +141,7 @@ body.light header {
     }
 
     .hero-text {
-      background: linear-gradient(135deg, #05082ca5, #ffffff42);
+      background: linear-gradient(135deg, #05082cac, #acb1ceb5);
       margin: 4vw;
       border-radius: 24px;
       padding: 4vw;
@@ -231,7 +231,7 @@ body.light header {
       border: none;
       box-shadow: 0 4px 16px rgba(11, 1, 36, 0.593);
       text-align: center;
-      font-size: large;
+      font-size: medium;
     }
 
     /* Section titles */
@@ -276,7 +276,51 @@ body.light header {
     }
 
     #j1{
-      background-image: url("../media/1.jpg");
+      background-image: url("../media/bookshelf/7.jpg");
+      background-size: cover;
+    }
+    #j2{
+      background-image: url("../media/bookshelf/18.jpg");
+      background-size: cover;
+    }
+    #j3{
+      background-image: url("../media/bookshelf/199.jpg");
+      background-size: cover;
+    }
+    #j4{
+      background-image: url("../media//bookshelf/1.jpg");
+      background-size: cover;
+    }
+    #j5{
+      background-image: url("../media/bookshelf/9.jpg");
+      background-size: cover;
+    }
+    #j6{
+      background-image: url("../media/bookshelf/15.jpg");
+      background-size: cover;
+    }
+    #j7{
+      background-image: url("../media/bookshelf/10.jpg");
+      background-size: cover;
+    }
+    #j8{
+      background-image: url("../media/bookshelf/5.jpg");
+      background-size: cover;
+    }
+    #j9{
+      background-image: url("../media/bookshelf/14.jpg");
+      background-size: cover;
+    }
+    #j10{
+      background-image: url("../media/bookshelf/6.jpg");
+      background-size: cover;
+    }
+    #j11{
+      background-image: url("../media/bookshelf/1.jpg");
+      background-size: cover;
+    }
+    #j12{
+      background-image: url("../media/bookshelf/1.jpg");
       background-size: cover;
     }
 
