@@ -128,8 +128,7 @@ header {
   text-align:right;
   align-content: center;
   padding: 60px 20px;
-  /* background: linear-gradient(to bottom, #1e293b, #0f172a); */
-  background-image: url("../media/landlight3l.jpg");
+  background-image: url("../media/light3.jpg");
   background-size: cover;
   box-shadow: 0 4px 16px rgba(8, 24, 203, 0.3);
 }
