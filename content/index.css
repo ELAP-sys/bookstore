@@ -509,12 +509,21 @@ body.light .footer-section a {
     background-size: contain;
     padding: 64px 24px;
     height: 80vw;
+    margin-top: 30px;
   }
   
   .scrl-butt {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
     margin-left: 43%;
   }
   
+  .scroll-down{
+    font-size: small;
+    width: 60%;
+  }
   
   .section-title{
     text-align: center;
