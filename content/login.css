@@ -23,7 +23,7 @@ body {
   justify-content: center;
   background-image: url("../media/landdark.jpg");
   direction: rtl;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
