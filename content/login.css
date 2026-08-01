@@ -123,3 +123,14 @@ input[type="text"]::placeholder {
 input[type="password"]::placeholder {
   opacity: 0.5;
 }
+
+input.error {
+  border: 2px solid #e63946;;
+}
+
+small.error {
+  border-radius: 3px;
+  background-color: #e63946;
+  color: #fff;
+  font-size: 1rem;
+}
