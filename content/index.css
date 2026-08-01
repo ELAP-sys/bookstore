@@ -17,7 +17,7 @@ body {
   background: var(--bg);
   color: var(--text);
   margin: 0;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.4s ease, color 0.8s;
 }
 
 a {
@@ -110,9 +110,8 @@ header {
 }
 
 
-.dark-toggle {
+.theme-toggle {
   margin-top: 10px;
-  background: var(--accent);
   color: #000;
   border: none;
   border-radius: 999px;
@@ -134,6 +133,7 @@ header {
   background-size: cover;
   box-shadow: 0 4px 16px rgba(8, 24, 203, 0.3);
 }
+
 
 .hero-text {
   background: linear-gradient(135deg, #05082cac, #acb1ceb5);
@@ -461,15 +461,16 @@ footer {
 body.light {
   --bg: #f5f5f5;
   --text: #222;
-  --card: #fff;
+  --card: #bbc2d6df;
+  transition: background 0.4s ease, color 0.8s;
 }
 
 body.light header {
-  background: #fff;
+  background: #a29ec1d6;
 }
 
 body.light footer {
-  background: #fff;
+  background: #959fb8d9;
   color: #222;
 }
 body.light .footer-section a {

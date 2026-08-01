@@ -1,10 +1,4 @@
-// app.js — adds confetti on success + when clicking the green pill
-// Uses dynamic import so you DON'T need <script type="module">.
-// If you keep the success element as a <div>, this script gives it button-like
-// semantics (role, tabindex, Enter/Space support).
-
 (function () {
-  // ---------- Confetti loader + helpers ----------
   const confettiReady = import('https://esm.sh/canvas-confetti')
     .then(m => m.default)
     .catch(() => null);
